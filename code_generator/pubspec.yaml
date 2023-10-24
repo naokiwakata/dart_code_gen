@@ -3,13 +3,15 @@ description: A sample command-line application.
 version: 1.0.0
 
 environment:
-  sdk: ^3.0.7
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
 
 dependencies:
+  analyzer: ^6.1.0
   build: ^2.4.1
+  source_gen: ^1.4.0
 
 dev_dependencies:
+  build_runner: ^2.4.6
   lints: ^2.0.0
   test: ^1.21.0
-  build_runner: ^2.4.6
-  source_gen: ^1.4.0

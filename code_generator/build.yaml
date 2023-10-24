@@ -1,0 +1,7 @@
+builders:
+  dart_code_gen:
+    import: "package:dart_code_gen/builder.dart"
+    builder_factories: ["helloBuilder"]
+    build_extensions: {".dart": [".g.dart"]}
+    auto_apply: dependents
+    applies_builders: ["source_gen|combining_builder"]
